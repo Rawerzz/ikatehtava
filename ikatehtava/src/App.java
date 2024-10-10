@@ -5,12 +5,14 @@ public class App {
         int ika = 10;
 
 // Tulostusehdot
-
-
+//lisätty selostuksia muutamiin if lauseihin github committia varten.
+// tarkistaa onko ikä 0 ja 15 välillä jos on sanoo olet alaikäinen
 if (ika > 0 && ika < 15) {
     System.out.println("Olet alaikäinen");
+    // jos ikä on 15 tai yli sanoo saat ajaa mopoa.
     if (ika >= 15) {
     System.out.println("Saat ajaa mopoa"); }
+    // jos ikä on isompi kuin 65 sanoo olet eläkeläinen.
     } else if (ika >= 65) {
     System.out.println("Olet eläkeläinen");
 
